@@ -5,11 +5,11 @@ type Data = {
 }
 
 
-export default function Header({ children, image  }: Data) {
+export default function Header({ children, image }: Data) {
     return (
         <header>
             <img src={image.src} alt={image.alt} />
-            {/* <img {...image} /> */}
+
             {children}
 
         </header>
